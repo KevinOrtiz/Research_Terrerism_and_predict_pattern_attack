@@ -1,1 +1,1 @@
-# Research_Terrerism_and_predict_pattern_attack
+# Research_Terrorism_and_predict_pattern_attack
