@@ -53,4 +53,4 @@ auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 #Set up the listener. The 'wait_on_rate_limit=True' is needed to help with Twitter API rate limiting.
 listener = StreamListener(api=tweepy.API(wait_on_rate_limit=True))
 streamer = tweepy.Stream(auth=auth, listener=listener)
-streamer.filter(locations=[257068,2767061,63.52,0.099,0.257 ])
+streamer.filter(locations=[-74.0148966213,40.7101749332,-74.0088522889,40.7141959986])
