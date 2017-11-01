@@ -4,7 +4,8 @@ from pymongo import MongoClient
 
 MONGO_HOST= 'mongodb://localhost/terrorismdb'
 
-WORDS = ['#terrorists', '#NYC', '#islam', '#terrorism']
+##WORDS = ['#terrorists', '#NYC', '#islam', '#terrorism']
+WORDS=['terrorists', 'NYC','terrorist','terror']
 
 CONSUMER_KEY = "LsI9jhgrP68ab6zAJyuMKtJFJ"
 CONSUMER_SECRET = "b3lrKre64ZuqM24TMvC5P8zr4n8XBXxi52zNAHTXgc6UOOGmjS"
